@@ -7,10 +7,10 @@ interface TransferERC20FromEthereumToMaticUsingPOSBridge {
   ethereumAccountPrivateKey: string;
   ethereumApiUrl: string;
   rootTokenAddress: string;
-  recepientAddress: string;
+  recipientAddress: string;
   amountTokenInEther: string;
-  maticNetwork: string;
-  maticVersion: string;
+  maticNetwork?: string;
+  maticVersion?: string;
   gasPrice?: string;
 }
 
@@ -19,10 +19,10 @@ export async function transferERC20FromEthereumToMaticUsingPOSBridge({
   ethereumAccountPrivateKey,
   ethereumApiUrl,
   rootTokenAddress,
-  recepientAddress,
+  recipientAddress,
   amountTokenInEther,
-  maticNetwork,
-  maticVersion,
+  maticNetwork = "testnet",
+  maticVersion = "mumbai",
   gasPrice = "100000000000",
 }: TransferERC20FromEthereumToMaticUsingPOSBridge) {
   const parentProvider = new HDWalletProvider(
@@ -47,7 +47,7 @@ export async function transferERC20FromEthereumToMaticUsingPOSBridge({
 
   await maticPOSClient.depositERC20ForUser(
     rootTokenAddress,
-    recepientAddress,
+    recipientAddress,
     amount,
     {
       from,
@@ -55,12 +55,3 @@ export async function transferERC20FromEthereumToMaticUsingPOSBridge({
     }
   );
 }
-
-// transferERC20FromEthereumToMaticUsingPOSBridge({
-//   maticApiUrl: config.maticApiUrl,
-//   ethereumAccountPrivateKey: config.privateKey,
-//   ethereumApiUrl: config.privateKey,
-//   rootTokenAddress: config.rootTokenAddress,
-//   recepientAddress: "0xc54177b51ce9fca2827202054fd8541792b03f74",
-//   amountTokenInEther: "0.01",
-// });

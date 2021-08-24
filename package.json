@@ -16,7 +16,7 @@
   ],
   "scripts": {
     "build": "tsc",
-    "prepublishOnly": "tsdx build",
+    "prepublishOnly": "yarn build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Paweł Kędzia",
