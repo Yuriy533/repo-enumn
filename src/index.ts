@@ -5,6 +5,7 @@ import {
   transferERC721FromEthereumToMaticUsingPOSBridge,
   transferERC721FromMaticToEthereumUsingPOSBridge,
   transferERC1155FromEthereumToMaticUsingPOSBridge,
+  transferERC1155FromMaticToEthereumUsingPOSBridge,
 } from "./bridges";
 
 export {
@@ -14,4 +15,5 @@ export {
   transferERC721FromEthereumToMaticUsingPOSBridge,
   transferERC721FromMaticToEthereumUsingPOSBridge,
   transferERC1155FromEthereumToMaticUsingPOSBridge,
+  transferERC1155FromMaticToEthereumUsingPOSBridge,
 };

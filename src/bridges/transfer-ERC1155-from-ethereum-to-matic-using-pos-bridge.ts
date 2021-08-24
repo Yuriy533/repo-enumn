@@ -1,6 +1,5 @@
 import { MaticPOSClient } from "@maticnetwork/maticjs";
 import HDWalletProvider from "@truffle/hdwallet-provider";
-import Web3 from "web3";
 import BN from "bn.js";
 
 interface TransferERC1155FromEthereumToMaticUsingPOSBridge {

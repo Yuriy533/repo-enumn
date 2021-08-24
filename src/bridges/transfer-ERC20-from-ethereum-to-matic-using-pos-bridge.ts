@@ -1,6 +1,5 @@
 import { MaticPOSClient } from "@maticnetwork/maticjs";
 import HDWalletProvider from "@truffle/hdwallet-provider";
-import Web3 from "web3";
 
 interface TransferERC20FromEthereumToMaticUsingPOSBridge {
   maticApiUrl: string;
@@ -8,7 +7,7 @@ interface TransferERC20FromEthereumToMaticUsingPOSBridge {
   ethereumApiUrl: string;
   rootTokenAddress: string;
   recipientAddress: string;
-  amountTokenInEther: string;
+  amountTokenWei: string;
   maticNetwork?: string;
   maticVersion?: string;
   gasPrice?: string;
@@ -20,7 +19,7 @@ export async function transferERC20FromEthereumToMaticUsingPOSBridge({
   ethereumApiUrl,
   rootTokenAddress,
   recipientAddress,
-  amountTokenInEther,
+  amountTokenWei,
   maticNetwork = "testnet",
   maticVersion = "mumbai",
   gasPrice = "100000000000",
@@ -39,16 +38,18 @@ export async function transferERC20FromEthereumToMaticUsingPOSBridge({
 
   const from = parentProvider.getAddress();
 
-  const amount = Web3.utils.toWei(amountTokenInEther, "ether");
-
-  await maticPOSClient.approveERC20ForDeposit(rootTokenAddress, amount, {
-    from,
-  });
+  await maticPOSClient.approveERC20ForDeposit(
+    rootTokenAddress,
+    amountTokenWei,
+    {
+      from,
+    }
+  );
 
   await maticPOSClient.depositERC20ForUser(
     rootTokenAddress,
     recipientAddress,
-    amount,
+    amountTokenWei,
     {
       from,
       gasPrice,
