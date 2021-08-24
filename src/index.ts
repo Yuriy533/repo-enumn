@@ -1,9 +1,13 @@
 import {
-  transferERC20FromPolygonToEthereumUsingPOSBridge,
+  transferERC20FromMaticToEthereumUsingPOSBridge,
   transferERC20FromEthereumToMaticUsingPOSBridge,
+  transferETHFromEthereumToMaticUsingPOSBridge,
+  transferERC721FromEthereumToMaticUsingPOSBridge,
 } from "./bridges";
 
 export {
-  transferERC20FromPolygonToEthereumUsingPOSBridge,
+  transferERC20FromMaticToEthereumUsingPOSBridge,
   transferERC20FromEthereumToMaticUsingPOSBridge,
+  transferETHFromEthereumToMaticUsingPOSBridge,
+  transferERC721FromEthereumToMaticUsingPOSBridge,
 };

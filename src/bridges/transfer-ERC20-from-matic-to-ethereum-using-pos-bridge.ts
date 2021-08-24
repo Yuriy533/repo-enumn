@@ -3,7 +3,7 @@ import HDWalletProvider from "@truffle/hdwallet-provider";
 import Web3 from "web3";
 import { eventTracking } from "../utils";
 
-interface TransferERC20FromPolygonToEthereumUsingPOSBridge {
+interface TransferERC20FromMaticToEthereumUsingPOSBridge {
   polygonMumbaiApiUrl: string;
   polygonAccountPrivateKey: string;
   accountPrivateKey: string;
@@ -16,7 +16,7 @@ interface TransferERC20FromPolygonToEthereumUsingPOSBridge {
   maticVersion?: string;
 }
 
-export async function transferERC20FromPolygonToEthereumUsingPOSBridge({
+export async function transferERC20FromMaticToEthereumUsingPOSBridge({
   polygonMumbaiApiUrl,
   accountPrivateKey,
   ethereumHttpsApiUrl,
@@ -27,7 +27,7 @@ export async function transferERC20FromPolygonToEthereumUsingPOSBridge({
   rootChainProxyAddress = "0x2890ba17efe978480615e330ecb65333b880928e",
   maticNetwork = "testnet",
   maticVersion = "mumbai",
-}: TransferERC20FromPolygonToEthereumUsingPOSBridge) {
+}: TransferERC20FromMaticToEthereumUsingPOSBridge) {
   // https://github.com/trufflesuite/truffle-hdwallet-provider
   // set the shareNonce to false so maticProvider and parentProvider won't share nonce which causes errors
   const maticProvider = new HDWalletProvider(
