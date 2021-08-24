@@ -3,6 +3,8 @@ import {
   transferERC20FromEthereumToMaticUsingPOSBridge,
   transferETHFromEthereumToMaticUsingPOSBridge,
   transferERC721FromEthereumToMaticUsingPOSBridge,
+  transferERC721FromMaticToEthereumUsingPOSBridge,
+  transferERC1155FromEthereumToMaticUsingPOSBridge,
 } from "./bridges";
 
 export {
@@ -10,4 +12,6 @@ export {
   transferERC20FromEthereumToMaticUsingPOSBridge,
   transferETHFromEthereumToMaticUsingPOSBridge,
   transferERC721FromEthereumToMaticUsingPOSBridge,
+  transferERC721FromMaticToEthereumUsingPOSBridge,
+  transferERC1155FromEthereumToMaticUsingPOSBridge,
 };
