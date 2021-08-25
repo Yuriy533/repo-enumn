@@ -18,7 +18,15 @@
 
 | Name | Type |
 | :------ | :------ |
-| `__namedParameters` | `TransferETHFromEthereumToMaticUsingPOSBridge` |
+| `__namedParameters` | `Object` |
+| `__namedParameters.amountWei` | `string` |
+| `__namedParameters.ethereumAccountPrivateKey` | `string` |
+| `__namedParameters.ethereumApiUrl` | `string` |
+| `__namedParameters.gasPrice?` | `string` |
+| `__namedParameters.maticApiUrl` | `string` |
+| `__namedParameters.maticNetwork?` | `string` |
+| `__namedParameters.maticVersion?` | `string` |
+| `__namedParameters.recipientAddress` | `string` |
 
 #### Returns
 
@@ -26,4 +34,4 @@
 
 #### Defined in
 
-[bridges/transfer-ETH-from-ethereum-to-matic-using-pos-bridge.ts:15](https://github.com/KedziaPawel/matic-bridge/blob/27282fc/src/bridges/transfer-ETH-from-ethereum-to-matic-using-pos-bridge.ts#L15)
+[bridges/transfer-ETH-from-ethereum-to-matic-using-pos-bridge.ts:15](https://github.com/KedziaPawel/matic-bridge/blob/6ca34d9/src/bridges/transfer-ETH-from-ethereum-to-matic-using-pos-bridge.ts#L15)
