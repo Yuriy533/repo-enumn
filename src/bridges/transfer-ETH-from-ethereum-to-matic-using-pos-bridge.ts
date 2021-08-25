@@ -6,11 +6,8 @@ export interface TransferETHFromEthereumToMaticUsingPOSBridge {
   ethereumAccountPrivateKey: string;
   ethereumApiUrl: string;
   recipientAddress: string;
-  /**
-   * amount in Wei bbbbb.
-   */
+  /** amount in Wei bbbbb. */
   amountWei: string;
-  // matic super network
   maticNetwork?: string;
   maticVersion?: string;
   gasPrice?: string;

@@ -27,7 +27,7 @@ amount in Wei bbbbb.
 
 #### Defined in
 
-[bridges/transfer-ETH-from-ethereum-to-matic-using-pos-bridge.ts:12](https://github.com/KedziaPawel/matic-bridge/blob/91b2411/src/bridges/transfer-ETH-from-ethereum-to-matic-using-pos-bridge.ts#L12)
+[bridges/transfer-ETH-from-ethereum-to-matic-using-pos-bridge.ts:10](https://github.com/KedziaPawel/matic-bridge/blob/8883034/src/bridges/transfer-ETH-from-ethereum-to-matic-using-pos-bridge.ts#L10)
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 #### Defined in
 
-[bridges/transfer-ETH-from-ethereum-to-matic-using-pos-bridge.ts:6](https://github.com/KedziaPawel/matic-bridge/blob/91b2411/src/bridges/transfer-ETH-from-ethereum-to-matic-using-pos-bridge.ts#L6)
+[bridges/transfer-ETH-from-ethereum-to-matic-using-pos-bridge.ts:6](https://github.com/KedziaPawel/matic-bridge/blob/8883034/src/bridges/transfer-ETH-from-ethereum-to-matic-using-pos-bridge.ts#L6)
 
 ___
 
@@ -47,7 +47,7 @@ ___
 
 #### Defined in
 
-[bridges/transfer-ETH-from-ethereum-to-matic-using-pos-bridge.ts:7](https://github.com/KedziaPawel/matic-bridge/blob/91b2411/src/bridges/transfer-ETH-from-ethereum-to-matic-using-pos-bridge.ts#L7)
+[bridges/transfer-ETH-from-ethereum-to-matic-using-pos-bridge.ts:7](https://github.com/KedziaPawel/matic-bridge/blob/8883034/src/bridges/transfer-ETH-from-ethereum-to-matic-using-pos-bridge.ts#L7)
 
 ___
 
@@ -57,7 +57,7 @@ ___
 
 #### Defined in
 
-[bridges/transfer-ETH-from-ethereum-to-matic-using-pos-bridge.ts:16](https://github.com/KedziaPawel/matic-bridge/blob/91b2411/src/bridges/transfer-ETH-from-ethereum-to-matic-using-pos-bridge.ts#L16)
+[bridges/transfer-ETH-from-ethereum-to-matic-using-pos-bridge.ts:13](https://github.com/KedziaPawel/matic-bridge/blob/8883034/src/bridges/transfer-ETH-from-ethereum-to-matic-using-pos-bridge.ts#L13)
 
 ___
 
@@ -67,7 +67,7 @@ ___
 
 #### Defined in
 
-[bridges/transfer-ETH-from-ethereum-to-matic-using-pos-bridge.ts:5](https://github.com/KedziaPawel/matic-bridge/blob/91b2411/src/bridges/transfer-ETH-from-ethereum-to-matic-using-pos-bridge.ts#L5)
+[bridges/transfer-ETH-from-ethereum-to-matic-using-pos-bridge.ts:5](https://github.com/KedziaPawel/matic-bridge/blob/8883034/src/bridges/transfer-ETH-from-ethereum-to-matic-using-pos-bridge.ts#L5)
 
 ___
 
@@ -77,7 +77,7 @@ ___
 
 #### Defined in
 
-[bridges/transfer-ETH-from-ethereum-to-matic-using-pos-bridge.ts:14](https://github.com/KedziaPawel/matic-bridge/blob/91b2411/src/bridges/transfer-ETH-from-ethereum-to-matic-using-pos-bridge.ts#L14)
+[bridges/transfer-ETH-from-ethereum-to-matic-using-pos-bridge.ts:11](https://github.com/KedziaPawel/matic-bridge/blob/8883034/src/bridges/transfer-ETH-from-ethereum-to-matic-using-pos-bridge.ts#L11)
 
 ___
 
@@ -87,7 +87,7 @@ ___
 
 #### Defined in
 
-[bridges/transfer-ETH-from-ethereum-to-matic-using-pos-bridge.ts:15](https://github.com/KedziaPawel/matic-bridge/blob/91b2411/src/bridges/transfer-ETH-from-ethereum-to-matic-using-pos-bridge.ts#L15)
+[bridges/transfer-ETH-from-ethereum-to-matic-using-pos-bridge.ts:12](https://github.com/KedziaPawel/matic-bridge/blob/8883034/src/bridges/transfer-ETH-from-ethereum-to-matic-using-pos-bridge.ts#L12)
 
 ___
 
@@ -97,4 +97,4 @@ ___
 
 #### Defined in
 
-[bridges/transfer-ETH-from-ethereum-to-matic-using-pos-bridge.ts:8](https://github.com/KedziaPawel/matic-bridge/blob/91b2411/src/bridges/transfer-ETH-from-ethereum-to-matic-using-pos-bridge.ts#L8)
+[bridges/transfer-ETH-from-ethereum-to-matic-using-pos-bridge.ts:8](https://github.com/KedziaPawel/matic-bridge/blob/8883034/src/bridges/transfer-ETH-from-ethereum-to-matic-using-pos-bridge.ts#L8)
