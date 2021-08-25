@@ -17,16 +17,20 @@ interface TransferETHFromEthereumToMaticUsingPOSBridge {
  * The [[TransferETHFromEthereumToMaticUsingPOSBridge | TransferETHFromEthereumToMaticUsingPOSBridge interface]]
  * @param ethereumApiUrl  Comment for parameter ethereumApiUrl.
  */
-export async function transferETHFromEthereumToMaticUsingPOSBridge({
-  maticApiUrl,
-  ethereumAccountPrivateKey,
-  ethereumApiUrl,
-  recipientAddress,
-  amountWei,
-  maticNetwork = "testnet",
-  maticVersion = "mumbai",
-  gasPrice = "100000000000",
-}: TransferETHFromEthereumToMaticUsingPOSBridge) {
+export async function transferETHFromEthereumToMaticUsingPOSBridge(
+  transfer: TransferETHFromEthereumToMaticUsingPOSBridge
+) {
+  const {
+    maticApiUrl,
+    ethereumAccountPrivateKey,
+    ethereumApiUrl,
+    recipientAddress,
+    amountWei,
+    maticNetwork = "testnet",
+    maticVersion = "mumbai",
+    gasPrice = "100000000000",
+  } = transfer;
+
   const parentProvider = new HDWalletProvider(
     ethereumAccountPrivateKey,
     ethereumApiUrl
