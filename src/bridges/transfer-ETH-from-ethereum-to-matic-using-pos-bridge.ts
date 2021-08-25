@@ -12,6 +12,9 @@ import HDWalletProvider from "@truffle/hdwallet-provider";
 //   gasPrice?: string;
 // }
 
+/**
+ * @param ethereumApiUrl  Comment for parameter ethereumApiUrl.
+ */
 export async function transferETHFromEthereumToMaticUsingPOSBridge({
   maticApiUrl,
   ethereumAccountPrivateKey,

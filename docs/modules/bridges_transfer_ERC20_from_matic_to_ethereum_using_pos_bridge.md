@@ -1,4 +1,4 @@
-[@ethereumnetwork/matic-bridge](../README.md) / bridges/transfer-ERC20-from-matic-to-ethereum-using-pos-bridge
+[@ethereumnetwork/matic-bridge](../README.md) / [Exports](../modules.md) / bridges/transfer-ERC20-from-matic-to-ethereum-using-pos-bridge
 
 # Module: bridges/transfer-ERC20-from-matic-to-ethereum-using-pos-bridge
 
@@ -26,4 +26,4 @@
 
 #### Defined in
 
-[bridges/transfer-ERC20-from-matic-to-ethereum-using-pos-bridge.ts:21](https://github.com/KedziaPawel/matic-bridge/blob/6ca34d9/src/bridges/transfer-ERC20-from-matic-to-ethereum-using-pos-bridge.ts#L21)
+[bridges/transfer-ERC20-from-matic-to-ethereum-using-pos-bridge.ts:21](https://github.com/KedziaPawel/matic-bridge/blob/997797d/src/bridges/transfer-ERC20-from-matic-to-ethereum-using-pos-bridge.ts#L21)

@@ -16,7 +16,8 @@
   "typedocOptions": {
     "entryPoints": ["src/"],
     "out": "docs",
-    "readme": "none",
+    "excludeInternal": true,
+    // "readme": "none",
     "plugin": "typedoc-plugin-markdown"
   }
 }
