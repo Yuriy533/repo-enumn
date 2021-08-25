@@ -14,19 +14,14 @@
 
 ▸ **transferETHFromEthereumToMaticUsingPOSBridge**(`__namedParameters`): `Promise`<`void`\>
 
+The {@link TransferETHFromEthereumToMaticUsingPOSBridge | TransferETHFromEthereumToMaticUsingPOSBridge interface}
+The [[TransferETHFromEthereumToMaticUsingPOSBridge | TransferETHFromEthereumToMaticUsingPOSBridge interface]]
+
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `__namedParameters` | `Object` | - |
-| `__namedParameters.amountWei` | `string` | - |
-| `__namedParameters.ethereumAccountPrivateKey` | `string` | - |
-| `__namedParameters.ethereumApiUrl` | `string` | Comment for parameter ethereumApiUrl. |
-| `__namedParameters.gasPrice?` | `string` | - |
-| `__namedParameters.maticApiUrl` | `string` | - |
-| `__namedParameters.maticNetwork?` | `string` | - |
-| `__namedParameters.maticVersion?` | `string` | - |
-| `__namedParameters.recipientAddress` | `string` | - |
+| Name | Type |
+| :------ | :------ |
+| `__namedParameters` | `TransferETHFromEthereumToMaticUsingPOSBridge` |
 
 #### Returns
 
@@ -34,4 +29,4 @@
 
 #### Defined in
 
-[bridges/transfer-ETH-from-ethereum-to-matic-using-pos-bridge.ts:18](https://github.com/KedziaPawel/matic-bridge/blob/997797d/src/bridges/transfer-ETH-from-ethereum-to-matic-using-pos-bridge.ts#L18)
+[bridges/transfer-ETH-from-ethereum-to-matic-using-pos-bridge.ts:20](https://github.com/KedziaPawel/matic-bridge/blob/b2e4904/src/bridges/transfer-ETH-from-ethereum-to-matic-using-pos-bridge.ts#L20)

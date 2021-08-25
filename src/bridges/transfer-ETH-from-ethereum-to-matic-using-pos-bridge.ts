@@ -1,18 +1,20 @@
 import { MaticPOSClient } from "@maticnetwork/maticjs";
 import HDWalletProvider from "@truffle/hdwallet-provider";
 
-// interface TransferETHFromEthereumToMaticUsingPOSBridge {
-//   maticApiUrl: string;
-//   ethereumAccountPrivateKey: string;
-//   ethereumApiUrl: string;
-//   recipientAddress: string;
-//   amountWei: string;
-//   maticNetwork?: string;
-//   maticVersion?: string;
-//   gasPrice?: string;
-// }
+interface TransferETHFromEthereumToMaticUsingPOSBridge {
+  maticApiUrl: string;
+  ethereumAccountPrivateKey: string;
+  ethereumApiUrl: string;
+  recipientAddress: string;
+  amountWei: string;
+  maticNetwork?: string;
+  maticVersion?: string;
+  gasPrice?: string;
+}
 
 /**
+ * The {@link TransferETHFromEthereumToMaticUsingPOSBridge | TransferETHFromEthereumToMaticUsingPOSBridge interface}
+ * The [[TransferETHFromEthereumToMaticUsingPOSBridge | TransferETHFromEthereumToMaticUsingPOSBridge interface]]
  * @param ethereumApiUrl  Comment for parameter ethereumApiUrl.
  */
 export async function transferETHFromEthereumToMaticUsingPOSBridge({
@@ -24,16 +26,7 @@ export async function transferETHFromEthereumToMaticUsingPOSBridge({
   maticNetwork = "testnet",
   maticVersion = "mumbai",
   gasPrice = "100000000000",
-}: {
-  maticApiUrl: string;
-  ethereumAccountPrivateKey: string;
-  ethereumApiUrl: string;
-  recipientAddress: string;
-  amountWei: string;
-  maticNetwork?: string;
-  maticVersion?: string;
-  gasPrice?: string;
-}) {
+}: TransferETHFromEthereumToMaticUsingPOSBridge) {
   const parentProvider = new HDWalletProvider(
     ethereumAccountPrivateKey,
     ethereumApiUrl
