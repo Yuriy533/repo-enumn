@@ -17,7 +17,7 @@
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "yarn build",
-    "generate:docs": "typedoc",
+    "generate:docs": "rm -r ./docs && typedoc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Paweł Kędzia",
@@ -26,7 +26,9 @@
     "@types/ethereum-protocol": "^1.0.2",
     "@types/web3": "^1.2.2",
     "typedoc": "^0.21.6",
-    "typedoc-plugin-markdown": "^3.10.4"
+    "typedoc-github-wiki-theme": "^0.5.1",
+    "typedoc-plugin-markdown": "^3.10.4",
+    "typedoc-plugin-rename-named-parameters": "^1.0.6"
   },
   "dependencies": {
     "@maticnetwork/maticjs": "^2.0.45",
