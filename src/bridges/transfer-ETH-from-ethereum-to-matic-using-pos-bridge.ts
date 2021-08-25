@@ -12,10 +12,6 @@ export interface TransferETHFromEthereumToMaticUsingPOSBridge {
   gasPrice?: string;
 }
 
-/**
- * The {@link TransferETHFromEthereumToMaticUsingPOSBridge | TransferETHFromEthereumToMaticUsingPOSBridge interface}
- * The [[TransferETHFromEthereumToMaticUsingPOSBridge | TransferETHFromEthereumToMaticUsingPOSBridge interface]]
- */
 export async function transferETHFromEthereumToMaticUsingPOSBridge({
   maticApiUrl,
   ethereumAccountPrivateKey,

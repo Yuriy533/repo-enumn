@@ -18,9 +18,6 @@
 
 ▸ **transferETHFromEthereumToMaticUsingPOSBridge**(`__namedParameters`): `Promise`<`void`\>
 
-The [TransferETHFromEthereumToMaticUsingPOSBridge interface](../interfaces/bridges_transfer_ETH_from_ethereum_to_matic_using_pos_bridge.TransferETHFromEthereumToMaticUsingPOSBridge.md)
-The [TransferETHFromEthereumToMaticUsingPOSBridge interface](../interfaces/bridges_transfer_ETH_from_ethereum_to_matic_using_pos_bridge.TransferETHFromEthereumToMaticUsingPOSBridge.md)
-
 #### Parameters
 
 | Name | Type |
@@ -33,4 +30,4 @@ The [TransferETHFromEthereumToMaticUsingPOSBridge interface](../interfaces/bridg
 
 #### Defined in
 
-[bridges/transfer-ETH-from-ethereum-to-matic-using-pos-bridge.ts:19](https://github.com/KedziaPawel/matic-bridge/blob/916521d/src/bridges/transfer-ETH-from-ethereum-to-matic-using-pos-bridge.ts#L19)
+[bridges/transfer-ETH-from-ethereum-to-matic-using-pos-bridge.ts:15](https://github.com/KedziaPawel/matic-bridge/blob/3b04a9e/src/bridges/transfer-ETH-from-ethereum-to-matic-using-pos-bridge.ts#L15)
