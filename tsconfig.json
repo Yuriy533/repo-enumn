@@ -12,5 +12,11 @@
     "skipLibCheck": true
   },
   "include": ["src"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules"],
+  "typedocOptions": {
+    "entryPoints": ["src/"],
+    "out": "docs",
+    "readme": "none",
+    "plugin": "typedoc-plugin-markdown"
+  }
 }

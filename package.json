@@ -17,13 +17,16 @@
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "yarn build",
+    "generate:docs": "typedoc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Paweł Kędzia",
   "license": "ISC",
   "devDependencies": {
     "@types/ethereum-protocol": "^1.0.2",
-    "@types/web3": "^1.2.2"
+    "@types/web3": "^1.2.2",
+    "typedoc": "^0.21.6",
+    "typedoc-plugin-markdown": "^3.10.4"
   },
   "dependencies": {
     "@maticnetwork/maticjs": "^2.0.45",
