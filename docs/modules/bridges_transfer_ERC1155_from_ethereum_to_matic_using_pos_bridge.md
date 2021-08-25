@@ -26,4 +26,4 @@
 
 #### Defined in
 
-[bridges/transfer-ERC1155-from-ethereum-to-matic-using-pos-bridge.ts:19](https://github.com/KedziaPawel/matic-bridge/blob/816d07e/src/bridges/transfer-ERC1155-from-ethereum-to-matic-using-pos-bridge.ts#L19)
+[bridges/transfer-ERC1155-from-ethereum-to-matic-using-pos-bridge.ts:19](https://github.com/KedziaPawel/matic-bridge/blob/91b2411/src/bridges/transfer-ERC1155-from-ethereum-to-matic-using-pos-bridge.ts#L19)

@@ -7,9 +7,10 @@ export interface TransferETHFromEthereumToMaticUsingPOSBridge {
   ethereumApiUrl: string;
   recipientAddress: string;
   /**
-   * @param amountWei amount in Wei bbbbb.
+   * amount in Wei bbbbb.
    */
   amountWei: string;
+  // matic super network
   maticNetwork?: string;
   maticVersion?: string;
   gasPrice?: string;
