@@ -12,6 +12,9 @@ export interface TransferETHFromEthereumToMaticUsingPOSBridge {
   gasPrice?: string;
 }
 
+/**
+ * @param amountWei  amount in Wei.
+ */
 export async function transferETHFromEthereumToMaticUsingPOSBridge({
   maticApiUrl,
   ethereumAccountPrivateKey,
