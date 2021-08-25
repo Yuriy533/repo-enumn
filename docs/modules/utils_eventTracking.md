@@ -1,4 +1,4 @@
-[@ethereumnetwork/matic-bridge](../README.md) / [Exports](../modules.md) / utils/eventTracking
+[@ethereumnetwork/matic-bridge](../README.md) / utils/eventTracking
 
 # Module: utils/eventTracking
 
@@ -30,4 +30,4 @@
 
 #### Defined in
 
-[utils/eventTracking.ts:7](https://github.com/KedziaPawel/matic-bridge/blob/36bf298/src/utils/eventTracking.ts#L7)
+[utils/eventTracking.ts:7](https://github.com/KedziaPawel/matic-bridge/blob/ca4dc8c/src/utils/eventTracking.ts#L7)

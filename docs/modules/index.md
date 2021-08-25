@@ -1,4 +1,4 @@
-[@ethereumnetwork/matic-bridge](../README.md) / [Exports](../modules.md) / index
+[@ethereumnetwork/matic-bridge](../README.md) / index
 
 # Module: index
 

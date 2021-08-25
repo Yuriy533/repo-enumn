@@ -1,4 +1,4 @@
-[@ethereumnetwork/matic-bridge](../README.md) / [Exports](../modules.md) / [bridges/transfer-ERC20-from-ethereum-to-matic-using-pos-bridge](../modules/bridges_transfer_ERC20_from_ethereum_to_matic_using_pos_bridge.md) / TransferERC20FromEthereumToMaticUsingPOSBridge
+[@ethereumnetwork/matic-bridge](../README.md) / [bridges/transfer-ERC20-from-ethereum-to-matic-using-pos-bridge](../modules/bridges_transfer_ERC20_from_ethereum_to_matic_using_pos_bridge.md) / TransferERC20FromEthereumToMaticUsingPOSBridge
 
 # Interface: TransferERC20FromEthereumToMaticUsingPOSBridge
 
@@ -26,7 +26,7 @@
 
 #### Defined in
 
-[bridges/transfer-ERC20-from-ethereum-to-matic-using-pos-bridge.ts:10](https://github.com/KedziaPawel/matic-bridge/blob/36bf298/src/bridges/transfer-ERC20-from-ethereum-to-matic-using-pos-bridge.ts#L10)
+[bridges/transfer-ERC20-from-ethereum-to-matic-using-pos-bridge.ts:10](https://github.com/KedziaPawel/matic-bridge/blob/ca4dc8c/src/bridges/transfer-ERC20-from-ethereum-to-matic-using-pos-bridge.ts#L10)
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 #### Defined in
 
-[bridges/transfer-ERC20-from-ethereum-to-matic-using-pos-bridge.ts:6](https://github.com/KedziaPawel/matic-bridge/blob/36bf298/src/bridges/transfer-ERC20-from-ethereum-to-matic-using-pos-bridge.ts#L6)
+[bridges/transfer-ERC20-from-ethereum-to-matic-using-pos-bridge.ts:6](https://github.com/KedziaPawel/matic-bridge/blob/ca4dc8c/src/bridges/transfer-ERC20-from-ethereum-to-matic-using-pos-bridge.ts#L6)
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 #### Defined in
 
-[bridges/transfer-ERC20-from-ethereum-to-matic-using-pos-bridge.ts:7](https://github.com/KedziaPawel/matic-bridge/blob/36bf298/src/bridges/transfer-ERC20-from-ethereum-to-matic-using-pos-bridge.ts#L7)
+[bridges/transfer-ERC20-from-ethereum-to-matic-using-pos-bridge.ts:7](https://github.com/KedziaPawel/matic-bridge/blob/ca4dc8c/src/bridges/transfer-ERC20-from-ethereum-to-matic-using-pos-bridge.ts#L7)
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 #### Defined in
 
-[bridges/transfer-ERC20-from-ethereum-to-matic-using-pos-bridge.ts:13](https://github.com/KedziaPawel/matic-bridge/blob/36bf298/src/bridges/transfer-ERC20-from-ethereum-to-matic-using-pos-bridge.ts#L13)
+[bridges/transfer-ERC20-from-ethereum-to-matic-using-pos-bridge.ts:13](https://github.com/KedziaPawel/matic-bridge/blob/ca4dc8c/src/bridges/transfer-ERC20-from-ethereum-to-matic-using-pos-bridge.ts#L13)
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 #### Defined in
 
-[bridges/transfer-ERC20-from-ethereum-to-matic-using-pos-bridge.ts:5](https://github.com/KedziaPawel/matic-bridge/blob/36bf298/src/bridges/transfer-ERC20-from-ethereum-to-matic-using-pos-bridge.ts#L5)
+[bridges/transfer-ERC20-from-ethereum-to-matic-using-pos-bridge.ts:5](https://github.com/KedziaPawel/matic-bridge/blob/ca4dc8c/src/bridges/transfer-ERC20-from-ethereum-to-matic-using-pos-bridge.ts#L5)
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 #### Defined in
 
-[bridges/transfer-ERC20-from-ethereum-to-matic-using-pos-bridge.ts:11](https://github.com/KedziaPawel/matic-bridge/blob/36bf298/src/bridges/transfer-ERC20-from-ethereum-to-matic-using-pos-bridge.ts#L11)
+[bridges/transfer-ERC20-from-ethereum-to-matic-using-pos-bridge.ts:11](https://github.com/KedziaPawel/matic-bridge/blob/ca4dc8c/src/bridges/transfer-ERC20-from-ethereum-to-matic-using-pos-bridge.ts#L11)
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 #### Defined in
 
-[bridges/transfer-ERC20-from-ethereum-to-matic-using-pos-bridge.ts:12](https://github.com/KedziaPawel/matic-bridge/blob/36bf298/src/bridges/transfer-ERC20-from-ethereum-to-matic-using-pos-bridge.ts#L12)
+[bridges/transfer-ERC20-from-ethereum-to-matic-using-pos-bridge.ts:12](https://github.com/KedziaPawel/matic-bridge/blob/ca4dc8c/src/bridges/transfer-ERC20-from-ethereum-to-matic-using-pos-bridge.ts#L12)
 
 ___
 
@@ -96,7 +96,7 @@ ___
 
 #### Defined in
 
-[bridges/transfer-ERC20-from-ethereum-to-matic-using-pos-bridge.ts:9](https://github.com/KedziaPawel/matic-bridge/blob/36bf298/src/bridges/transfer-ERC20-from-ethereum-to-matic-using-pos-bridge.ts#L9)
+[bridges/transfer-ERC20-from-ethereum-to-matic-using-pos-bridge.ts:9](https://github.com/KedziaPawel/matic-bridge/blob/ca4dc8c/src/bridges/transfer-ERC20-from-ethereum-to-matic-using-pos-bridge.ts#L9)
 
 ___
 
@@ -106,4 +106,4 @@ ___
 
 #### Defined in
 
-[bridges/transfer-ERC20-from-ethereum-to-matic-using-pos-bridge.ts:8](https://github.com/KedziaPawel/matic-bridge/blob/36bf298/src/bridges/transfer-ERC20-from-ethereum-to-matic-using-pos-bridge.ts#L8)
+[bridges/transfer-ERC20-from-ethereum-to-matic-using-pos-bridge.ts:8](https://github.com/KedziaPawel/matic-bridge/blob/ca4dc8c/src/bridges/transfer-ERC20-from-ethereum-to-matic-using-pos-bridge.ts#L8)

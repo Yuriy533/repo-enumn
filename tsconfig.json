@@ -17,7 +17,7 @@
     "entryPoints": ["src/"],
     "out": "docs",
     "excludeInternal": true,
-    // "readme": "none",
+    "readme": "none",
     "plugin": "typedoc-plugin-markdown"
   }
 }
