@@ -4,7 +4,7 @@ import Web3 from "web3";
 import BN from "bn.js";
 import { eventTracking } from "../utils";
 
-interface TransferERC20FromMaticToEthereumUsingPOSBridge {
+export interface TransferERC20FromMaticToEthereumUsingPOSBridge {
   polygonMumbaiApiUrl: string;
   polygonAccountPrivateKey: string;
   recipientAddress: string;

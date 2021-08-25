@@ -2,7 +2,7 @@ import { MaticPOSClient } from "@maticnetwork/maticjs";
 import HDWalletProvider from "@truffle/hdwallet-provider";
 import BN from "bn.js";
 
-interface TransferERC1155FromEthereumToMaticUsingPOSBridge {
+export interface TransferERC1155FromEthereumToMaticUsingPOSBridge {
   maticApiUrl: string;
   ethereumAccountPrivateKey: string;
   ethereumApiUrl: string;

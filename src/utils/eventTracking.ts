@@ -1,7 +1,3 @@
-/**
- * @module
- * @internal
- */
 import Web3Type from "web3/types";
 import { Log } from "web3-core/types";
 

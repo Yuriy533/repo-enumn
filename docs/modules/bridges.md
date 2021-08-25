@@ -1,0 +1,106 @@
+[@ethereumnetwork/matic-bridge](../README.md) / [Exports](../modules.md) / bridges
+
+# Module: bridges
+
+## Table of contents
+
+### References
+
+- [TransferERC1155FromEthereumToMaticUsingPOSBridge](bridges.md#transfererc1155fromethereumtomaticusingposbridge)
+- [TransferERC1155FromMaticToEthereumUsingPOSBridge](bridges.md#transfererc1155frommatictoethereumusingposbridge)
+- [TransferERC20FromEthereumToMaticUsingPOSBridge](bridges.md#transfererc20fromethereumtomaticusingposbridge)
+- [TransferERC20FromMaticToEthereumUsingPOSBridge](bridges.md#transfererc20frommatictoethereumusingposbridge)
+- [TransferERC721FromEthereumToMaticUsingPOSBridge](bridges.md#transfererc721fromethereumtomaticusingposbridge)
+- [TransferERC721FromMaticToEthereumUsingPOSBridge](bridges.md#transfererc721frommatictoethereumusingposbridge)
+- [TransferETHFromEthereumToMaticUsingPOSBridge](bridges.md#transferethfromethereumtomaticusingposbridge)
+- [transferERC1155FromEthereumToMaticUsingPOSBridge](bridges.md#transfererc1155fromethereumtomaticusingposbridge)
+- [transferERC1155FromMaticToEthereumUsingPOSBridge](bridges.md#transfererc1155frommatictoethereumusingposbridge)
+- [transferERC20FromEthereumToMaticUsingPOSBridge](bridges.md#transfererc20fromethereumtomaticusingposbridge)
+- [transferERC20FromMaticToEthereumUsingPOSBridge](bridges.md#transfererc20frommatictoethereumusingposbridge)
+- [transferERC721FromEthereumToMaticUsingPOSBridge](bridges.md#transfererc721fromethereumtomaticusingposbridge)
+- [transferERC721FromMaticToEthereumUsingPOSBridge](bridges.md#transfererc721frommatictoethereumusingposbridge)
+- [transferETHFromEthereumToMaticUsingPOSBridge](bridges.md#transferethfromethereumtomaticusingposbridge)
+
+## References
+
+### TransferERC1155FromEthereumToMaticUsingPOSBridge
+
+Re-exports: [TransferERC1155FromEthereumToMaticUsingPOSBridge](../interfaces/bridges_transfer_ERC1155_from_ethereum_to_matic_using_pos_bridge.TransferERC1155FromEthereumToMaticUsingPOSBridge.md)
+
+___
+
+### TransferERC1155FromMaticToEthereumUsingPOSBridge
+
+Re-exports: [TransferERC1155FromMaticToEthereumUsingPOSBridge](../interfaces/bridges_transfer_ERC1155_from_matic_to_ethereum_using_pos_bridge.TransferERC1155FromMaticToEthereumUsingPOSBridge.md)
+
+___
+
+### TransferERC20FromEthereumToMaticUsingPOSBridge
+
+Re-exports: [TransferERC20FromEthereumToMaticUsingPOSBridge](../interfaces/bridges_transfer_ERC20_from_ethereum_to_matic_using_pos_bridge.TransferERC20FromEthereumToMaticUsingPOSBridge.md)
+
+___
+
+### TransferERC20FromMaticToEthereumUsingPOSBridge
+
+Re-exports: [TransferERC20FromMaticToEthereumUsingPOSBridge](../interfaces/bridges_transfer_ERC20_from_matic_to_ethereum_using_pos_bridge.TransferERC20FromMaticToEthereumUsingPOSBridge.md)
+
+___
+
+### TransferERC721FromEthereumToMaticUsingPOSBridge
+
+Re-exports: [TransferERC721FromEthereumToMaticUsingPOSBridge](../interfaces/bridges_transfer_ERC721_from_ethereum_to_matic_using_pos_bridge.TransferERC721FromEthereumToMaticUsingPOSBridge.md)
+
+___
+
+### TransferERC721FromMaticToEthereumUsingPOSBridge
+
+Re-exports: [TransferERC721FromMaticToEthereumUsingPOSBridge](../interfaces/bridges_transfer_ERC721_from_matic_to_ethereum_using_pos_bridge.TransferERC721FromMaticToEthereumUsingPOSBridge.md)
+
+___
+
+### TransferETHFromEthereumToMaticUsingPOSBridge
+
+Re-exports: [TransferETHFromEthereumToMaticUsingPOSBridge](../interfaces/bridges_transfer_ETH_from_ethereum_to_matic_using_pos_bridge.TransferETHFromEthereumToMaticUsingPOSBridge.md)
+
+___
+
+### transferERC1155FromEthereumToMaticUsingPOSBridge
+
+Re-exports: [transferERC1155FromEthereumToMaticUsingPOSBridge](bridges_transfer_ERC1155_from_ethereum_to_matic_using_pos_bridge.md#transfererc1155fromethereumtomaticusingposbridge)
+
+___
+
+### transferERC1155FromMaticToEthereumUsingPOSBridge
+
+Re-exports: [transferERC1155FromMaticToEthereumUsingPOSBridge](bridges_transfer_ERC1155_from_matic_to_ethereum_using_pos_bridge.md#transfererc1155frommatictoethereumusingposbridge)
+
+___
+
+### transferERC20FromEthereumToMaticUsingPOSBridge
+
+Re-exports: [transferERC20FromEthereumToMaticUsingPOSBridge](bridges_transfer_ERC20_from_ethereum_to_matic_using_pos_bridge.md#transfererc20fromethereumtomaticusingposbridge)
+
+___
+
+### transferERC20FromMaticToEthereumUsingPOSBridge
+
+Re-exports: [transferERC20FromMaticToEthereumUsingPOSBridge](bridges_transfer_ERC20_from_matic_to_ethereum_using_pos_bridge.md#transfererc20frommatictoethereumusingposbridge)
+
+___
+
+### transferERC721FromEthereumToMaticUsingPOSBridge
+
+Re-exports: [transferERC721FromEthereumToMaticUsingPOSBridge](bridges_transfer_ERC721_from_ethereum_to_matic_using_pos_bridge.md#transfererc721fromethereumtomaticusingposbridge)
+
+___
+
+### transferERC721FromMaticToEthereumUsingPOSBridge
+
+Re-exports: [transferERC721FromMaticToEthereumUsingPOSBridge](bridges_transfer_ERC721_from_matic_to_ethereum_using_pos_bridge.md#transfererc721frommatictoethereumusingposbridge)
+
+___
+
+### transferETHFromEthereumToMaticUsingPOSBridge
+
+Re-exports: [transferETHFromEthereumToMaticUsingPOSBridge](bridges_transfer_ETH_from_ethereum_to_matic_using_pos_bridge.md#transferethfromethereumtomaticusingposbridge)

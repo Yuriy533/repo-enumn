@@ -4,7 +4,7 @@ import Web3 from "web3";
 import BN from "bn.js";
 import { eventTracking } from "../utils";
 
-interface TransferERC1155FromMaticToEthereumUsingPOSBridge {
+export interface TransferERC1155FromMaticToEthereumUsingPOSBridge {
   polygonMumbaiApiUrl: string;
   polygonAccountPrivateKey: string;
   accountPrivateKey: string;

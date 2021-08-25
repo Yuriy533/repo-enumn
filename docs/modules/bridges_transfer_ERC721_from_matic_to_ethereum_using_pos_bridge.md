@@ -4,6 +4,10 @@
 
 ## Table of contents
 
+### Interfaces
+
+- [TransferERC721FromMaticToEthereumUsingPOSBridge](../interfaces/bridges_transfer_ERC721_from_matic_to_ethereum_using_pos_bridge.TransferERC721FromMaticToEthereumUsingPOSBridge.md)
+
 ### Functions
 
 - [transferERC721FromMaticToEthereumUsingPOSBridge](bridges_transfer_ERC721_from_matic_to_ethereum_using_pos_bridge.md#transfererc721frommatictoethereumusingposbridge)
@@ -18,7 +22,7 @@
 
 | Name | Type |
 | :------ | :------ |
-| `__namedParameters` | `TransferERC721FromMaticToEthereumUsingPOSBridge` |
+| `__namedParameters` | [`TransferERC721FromMaticToEthereumUsingPOSBridge`](../interfaces/bridges_transfer_ERC721_from_matic_to_ethereum_using_pos_bridge.TransferERC721FromMaticToEthereumUsingPOSBridge.md) |
 
 #### Returns
 
@@ -26,4 +30,4 @@
 
 #### Defined in
 
-[bridges/transfer-ERC721-from-matic-to-ethereum-using-pos-bridge.ts:20](https://github.com/KedziaPawel/matic-bridge/blob/8883034/src/bridges/transfer-ERC721-from-matic-to-ethereum-using-pos-bridge.ts#L20)
+[bridges/transfer-ERC721-from-matic-to-ethereum-using-pos-bridge.ts:20](https://github.com/KedziaPawel/matic-bridge/blob/36bf298/src/bridges/transfer-ERC721-from-matic-to-ethereum-using-pos-bridge.ts#L20)

@@ -3,7 +3,7 @@ import HDWalletProvider from "@truffle/hdwallet-provider";
 import Web3 from "web3";
 import { eventTracking } from "../utils";
 
-interface TransferERC721FromMaticToEthereumUsingPOSBridge {
+export interface TransferERC721FromMaticToEthereumUsingPOSBridge {
   polygonMumbaiApiUrl: string;
   polygonAccountPrivateKey: string;
   accountPrivateKey: string;

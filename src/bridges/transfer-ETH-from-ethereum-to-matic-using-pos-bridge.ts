@@ -6,16 +6,12 @@ export interface TransferETHFromEthereumToMaticUsingPOSBridge {
   ethereumAccountPrivateKey: string;
   ethereumApiUrl: string;
   recipientAddress: string;
-  /** amount in Wei bbbbb. */
   amountWei: string;
   maticNetwork?: string;
   maticVersion?: string;
   gasPrice?: string;
 }
 
-/**
- * @param amountWei  amount in Wei.
- */
 export async function transferETHFromEthereumToMaticUsingPOSBridge({
   maticApiUrl,
   ethereumAccountPrivateKey,
