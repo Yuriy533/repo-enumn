@@ -1,14 +1,14 @@
 import { MaticPOSClient } from "@maticnetwork/maticjs";
 import HDWalletProvider from "@truffle/hdwallet-provider";
 
-/**
- * @amountWei amount in Wei bla.
- */
 export interface TransferETHFromEthereumToMaticUsingPOSBridge {
   maticApiUrl: string;
   ethereumAccountPrivateKey: string;
   ethereumApiUrl: string;
   recipientAddress: string;
+  /**
+   * @param amountWei amount in Wei bbbbb.
+   */
   amountWei: string;
   maticNetwork?: string;
   maticVersion?: string;
