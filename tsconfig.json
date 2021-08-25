@@ -17,9 +17,7 @@
     "entryPoints": ["src/"],
     "out": "docs",
     "excludeInternal": true,
-    // "namedParameters": "params",
     // "readme": "none",
-    "plugin": "typedoc-plugin-markdown",
-    "theme": "./node_modules/typedoc-github-wiki-theme/dist"
+    "plugin": "typedoc-plugin-markdown"
   }
 }

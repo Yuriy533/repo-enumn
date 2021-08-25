@@ -17,7 +17,7 @@
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "yarn build",
-    "generate:docs": "rm -r ./docs && typedoc",
+    "generate:docs": "typedoc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Paweł Kędzia",
