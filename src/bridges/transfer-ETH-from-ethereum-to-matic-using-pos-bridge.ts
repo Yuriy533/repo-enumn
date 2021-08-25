@@ -1,13 +1,12 @@
 import { MaticPOSClient } from "@maticnetwork/maticjs";
 import HDWalletProvider from "@truffle/hdwallet-provider";
-import Web3 from "web3";
 
 interface TransferETHFromEthereumToMaticUsingPOSBridge {
   maticApiUrl: string;
   ethereumAccountPrivateKey: string;
   ethereumApiUrl: string;
   recipientAddress: string;
-  amountInEther: string;
+  amountWei: string;
   maticNetwork?: string;
   maticVersion?: string;
   gasPrice?: string;
@@ -18,7 +17,7 @@ export async function transferETHFromEthereumToMaticUsingPOSBridge({
   ethereumAccountPrivateKey,
   ethereumApiUrl,
   recipientAddress,
-  amountInEther,
+  amountWei,
   maticNetwork = "testnet",
   maticVersion = "mumbai",
   gasPrice = "100000000000",
@@ -37,9 +36,7 @@ export async function transferETHFromEthereumToMaticUsingPOSBridge({
 
   const from = parentProvider.getAddress();
 
-  const amount = Web3.utils.toWei(amountInEther, "ether");
-
-  await maticPOSClient.depositEtherForUser(recipientAddress, amount, {
+  await maticPOSClient.depositEtherForUser(recipientAddress, amountWei, {
     from,
     gasPrice,
   });

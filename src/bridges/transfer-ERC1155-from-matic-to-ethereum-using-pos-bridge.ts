@@ -11,6 +11,7 @@ interface TransferERC1155FromMaticToEthereumUsingPOSBridge {
   ethereumHttpsApiUrl: string;
   ethereumWebsocktesApiUrl: string;
   childTokenAddress: string;
+  recipientAddress: string;
   amounts: (string | BN)[];
   tokenIds: (string | BN)[];
   rootChainProxyAddress?: string;
@@ -27,6 +28,7 @@ export async function transferERC1155FromMaticToEthereumUsingPOSBridge({
   childTokenAddress,
   amounts,
   tokenIds,
+  recipientAddress,
   // RootChainProxy Address on root chain (0x86E4Dc95c7FBdBf52e33D563BbDB00823894C287 for mainnet)
   rootChainProxyAddress = "0x2890ba17efe978480615e330ecb65333b880928e",
   maticNetwork = "testnet",
@@ -60,30 +62,27 @@ export async function transferERC1155FromMaticToEthereumUsingPOSBridge({
 
   const from = maticProvider.getAddress();
 
-  let burn;
-  if (tokenIds.length === 1 && amounts.length === 1) {
-    burn = await maticPOSClient.burnSingleERC1155(
-      childTokenAddress,
-      tokenIds[0],
-      amounts[0],
-      {
-        from,
-        gasPrice,
-      }
-    );
-  } else {
-    burn = await maticPOSClient.burnBatchERC1155(
-      childTokenAddress,
-      tokenIds,
-      amounts,
-      {
-        from,
-        gasPrice: "10000000000",
-      }
-    );
-  }
+  const isSingle = tokenIds.length === 1 && amounts.length === 1;
 
-  const { transactionHash: burnTransationHash } = burn;
+  const burnOptions = {
+    from,
+    gasPrice,
+    to: recipientAddress,
+  };
+
+  const { transactionHash: burnTransationHash } = isSingle
+    ? await maticPOSClient.burnSingleERC1155(
+        childTokenAddress,
+        tokenIds[0],
+        amounts[0],
+        burnOptions
+      )
+    : await maticPOSClient.burnBatchERC1155(
+        childTokenAddress,
+        tokenIds,
+        amounts,
+        burnOptions
+      );
 
   const parentWebsocketProvider = new Web3.providers.WebsocketProvider(
     ethereumWebsocktesApiUrl
@@ -106,9 +105,14 @@ export async function transferERC1155FromMaticToEthereumUsingPOSBridge({
     "burn proof event received, connection not needed"
   );
 
-  if (tokenIds.length === 1 && amounts.length === 1) {
-    await maticPOSClient.exitSingleERC1155(burnTransationHash, { from });
-  } else {
-    await maticPOSClient.exitBatchERC1155(burnTransationHash, { from });
-  }
+  const exitOptions = {
+    from,
+    to: recipientAddress,
+  };
+
+  const exitERC1155 = isSingle
+    ? maticPOSClient.exitSingleERC1155
+    : maticPOSClient.exitBatchERC1155;
+
+  await exitERC1155(burnTransationHash, exitOptions);
 }

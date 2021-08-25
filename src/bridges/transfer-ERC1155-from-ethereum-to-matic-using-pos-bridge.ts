@@ -47,7 +47,9 @@ export async function transferERC1155FromEthereumToMaticUsingPOSBridge({
     from,
   });
 
-  if (tokenIds.length === 1 && amounts.length === 1) {
+  const isSingle = tokenIds.length === 1 && amounts.length === 1;
+
+  if (isSingle) {
     await maticPOSClient.depositSingleERC1155ForUser(
       rootTokenAddress,
       recipientAddress,

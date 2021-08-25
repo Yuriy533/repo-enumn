@@ -7,6 +7,7 @@ import { eventTracking } from "../utils";
 interface TransferERC20FromMaticToEthereumUsingPOSBridge {
   polygonMumbaiApiUrl: string;
   polygonAccountPrivateKey: string;
+  recipientAddress: string;
   accountPrivateKey: string;
   ethereumHttpsApiUrl: string;
   ethereumWebsocktesApiUrl: string;
@@ -24,6 +25,7 @@ export async function transferERC20FromMaticToEthereumUsingPOSBridge({
   ethereumWebsocktesApiUrl,
   childTokenAddress,
   amountTokenWei,
+  recipientAddress,
   // RootChainProxy Address on root chain (0x86E4Dc95c7FBdBf52e33D563BbDB00823894C287 for mainnet)
   rootChainProxyAddress = "0x2890ba17efe978480615e330ecb65333b880928e",
   maticNetwork = "testnet",
@@ -56,15 +58,11 @@ export async function transferERC20FromMaticToEthereumUsingPOSBridge({
 
   const from = maticProvider.getAddress();
 
-  const burn = await maticPOSClient.burnERC20(
-    childTokenAddress,
-    amountTokenWei,
-    {
+  const { transactionHash: burnTransationHash } =
+    await maticPOSClient.burnERC20(childTokenAddress, amountTokenWei, {
       from,
-    }
-  );
-
-  const { transactionHash: burnTransationHash } = burn;
+      to: recipientAddress,
+    });
 
   const parentWebsocketProvider = new Web3.providers.WebsocketProvider(
     ethereumWebsocktesApiUrl
@@ -87,5 +85,8 @@ export async function transferERC20FromMaticToEthereumUsingPOSBridge({
     "burn proof event received, connection not needed"
   );
 
-  await maticPOSClient.exitERC20(burnTransationHash, { from });
+  await maticPOSClient.exitERC20(burnTransationHash, {
+    from,
+    to: recipientAddress,
+  });
 }
