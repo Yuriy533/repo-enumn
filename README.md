@@ -1,19 +1,39 @@
-@ethereumnetwork/matic-bridge
+## Matic POS bridges
 
-# @ethereumnetwork/matic-bridge
+This library helps you in easy way for transfering ethereum, ERC20, ERC721 and ERC1155 tokens from matic chain to ethereum chain and from matic chain to ethereum chain.
+It uses the [Matic SDK](https://docs.matic.network/docs/develop/ethereum-matic/pos/using-sdk/getting-started) under the hood.
 
-## Table of contents
+## Supported networks
 
-### Modules
+- Matic Testnet (Mumbai) - Ethereum Testnet (Goerli)
+- Matic Mainnet - Ethereum Mainnet
 
-- [bridges](modules/bridges.md)
-- [bridges/transfer-ERC1155-from-ethereum-to-matic-using-pos-bridge](modules/bridges_transfer_ERC1155_from_ethereum_to_matic_using_pos_bridge.md)
-- [bridges/transfer-ERC1155-from-matic-to-ethereum-using-pos-bridge](modules/bridges_transfer_ERC1155_from_matic_to_ethereum_using_pos_bridge.md)
-- [bridges/transfer-ERC20-from-ethereum-to-matic-using-pos-bridge](modules/bridges_transfer_ERC20_from_ethereum_to_matic_using_pos_bridge.md)
-- [bridges/transfer-ERC20-from-matic-to-ethereum-using-pos-bridge](modules/bridges_transfer_ERC20_from_matic_to_ethereum_using_pos_bridge.md)
-- [bridges/transfer-ERC721-from-ethereum-to-matic-using-pos-bridge](modules/bridges_transfer_ERC721_from_ethereum_to_matic_using_pos_bridge.md)
-- [bridges/transfer-ERC721-from-matic-to-ethereum-using-pos-bridge](modules/bridges_transfer_ERC721_from_matic_to_ethereum_using_pos_bridge.md)
-- [bridges/transfer-ETH-from-ethereum-to-matic-using-pos-bridge](modules/bridges_transfer_ETH_from_ethereum_to_matic_using_pos_bridge.md)
-- [index](modules/index.md)
-- [utils](modules/utils.md)
-- [utils/eventTracking](modules/utils_eventTracking.md)
+## Supported protocols
+
+- ETH
+- ERC20
+- ERC721
+- ERC1155
+
+## Prerequisites
+
+- Node.js v.10 or greater is required
+- npm or yarn
+
+## How To Install
+
+```sh
+ yarn add @ethereumnetwork/matic-bridge
+```
+
+or
+
+```sh
+ npm install @ethereumnetwork/matic-bridge
+```
+
+## [Full docs](https://github.com/KedziaPawel/matic-bridge/blob/main/docs/README.md)
+
+## License
+
+MIT

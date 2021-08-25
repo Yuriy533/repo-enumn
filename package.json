@@ -1,6 +1,6 @@
 {
   "name": "@ethereumnetwork/matic-bridge",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "matic bridge",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -21,7 +21,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Paweł Kędzia",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/ethereum-protocol": "^1.0.2",
     "@types/web3": "^1.2.2",

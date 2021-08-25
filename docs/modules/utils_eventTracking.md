@@ -30,4 +30,4 @@
 
 #### Defined in
 
-[utils/eventTracking.ts:7](https://github.com/KedziaPawel/matic-bridge/blob/ca4dc8c/src/utils/eventTracking.ts#L7)
+[utils/eventTracking.ts:7](https://github.com/KedziaPawel/matic-bridge/blob/72214ac/src/utils/eventTracking.ts#L7)

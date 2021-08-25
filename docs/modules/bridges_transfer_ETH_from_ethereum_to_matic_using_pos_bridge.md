@@ -30,4 +30,4 @@
 
 #### Defined in
 
-[bridges/transfer-ETH-from-ethereum-to-matic-using-pos-bridge.ts:15](https://github.com/KedziaPawel/matic-bridge/blob/ca4dc8c/src/bridges/transfer-ETH-from-ethereum-to-matic-using-pos-bridge.ts#L15)
+[bridges/transfer-ETH-from-ethereum-to-matic-using-pos-bridge.ts:15](https://github.com/KedziaPawel/matic-bridge/blob/72214ac/src/bridges/transfer-ETH-from-ethereum-to-matic-using-pos-bridge.ts#L15)
