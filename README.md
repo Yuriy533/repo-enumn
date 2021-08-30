@@ -34,7 +34,7 @@ or
 
 # Supported methods
 
-### transferETHFromEthereumToMaticUsingPOSBridge
+## transferETHFromEthereumToMaticUsingPOSBridge
 
 | Property                    | Required | Default value | Description                                                  |
 | :-------------------------- | :------: | :-----------: | :----------------------------------------------------------- |
@@ -46,6 +46,8 @@ or
 | `maticNetwork`              |   :x:    |    testnet    | network of matic. Set to `mainnet` for mainnet transfer      |
 | `maticVersion`              |   :x:    |    mumbai     | version of matic. Set to `v1` for mainnet transfer           |
 | `gasPrice`                  |   :x:    | 100000000000  | Gas price of the transfer                                    |
+
+### example usage
 
 ```typescript
 import { transferETHFromEthereumToMaticUsingPOSBridge } from "@ethereumnetwork/matic-bridge";
