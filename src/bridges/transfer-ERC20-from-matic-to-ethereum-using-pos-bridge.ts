@@ -5,8 +5,7 @@ import BN from "bn.js";
 import { eventTracking } from "../utils";
 
 export interface TransferERC20FromMaticToEthereumUsingPOSBridge {
-  polygonMumbaiApiUrl: string;
-  polygonAccountPrivateKey: string;
+  maticApiUrl: string;
   recipientAddress: string;
   accountPrivateKey: string;
   ethereumHttpsApiUrl: string;
@@ -19,7 +18,7 @@ export interface TransferERC20FromMaticToEthereumUsingPOSBridge {
 }
 
 export async function transferERC20FromMaticToEthereumUsingPOSBridge({
-  polygonMumbaiApiUrl,
+  maticApiUrl,
   accountPrivateKey,
   ethereumHttpsApiUrl,
   ethereumWebsocktesApiUrl,
@@ -35,7 +34,7 @@ export async function transferERC20FromMaticToEthereumUsingPOSBridge({
   // set the shareNonce to false so maticProvider and parentProvider won't share nonce which causes errors
   const maticProvider = new HDWalletProvider(
     accountPrivateKey,
-    polygonMumbaiApiUrl,
+    maticApiUrl,
     0,
     1,
     false
