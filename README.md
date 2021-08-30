@@ -32,6 +32,18 @@ or
  npm install @ethereumnetwork/matic-bridge
 ```
 
+## How To use
+
+# transferETHFromEthereumToMaticUsingPOSBridge
+
+| Name          | Required           | Default value | Description              |
+| :------------ | :----------------- | :------------ | :----------------------- |
+| `maticApiUrl` | :heavy_check_mark: | no            | The matic url to the api |
+
+```typescript
+import { transferETHFromEthereumToMaticUsingPOSBridge } from "@ethereumnetwork/matic-bridge";
+```
+
 ## [Full docs](https://github.com/KedziaPawel/matic-bridge/blob/main/docs/README.md)
 
 ## License
