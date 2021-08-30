@@ -56,7 +56,7 @@ import { transferETHFromEthereumToMaticUsingPOSBridge } from "@ethereumnetwork/m
 
 await transferETHFromEthereumToMaticUsingPOSBridge({
     maticApiUrl: 'https://polygon-mumbai.g.alchemy.com/v2/<your-api-key>',
-    maticApiUrl: 'https://eth-goerli.g.alchemy.com/v2/<your-api-key>',
+    ethereumApiUrl: 'https://eth-goerli.g.alchemy.com/v2/<your-api-key>',
     ethereumAccountPrivateKey: '<private-key-to-ethereum-account-of-sender>',
     amountWei: 1000000000,
     recipientAddress: '0x89205A3A3b2A69De6Dbf7f01ED13B2108B2c43e7'
@@ -86,7 +86,7 @@ import { transferERC20FromEthereumToMaticUsingPOSBridge } from "@ethereumnetwork
 
 await transferERC20FromEthereumToMaticUsingPOSBridge({
     maticApiUrl: 'https://polygon-mumbai.g.alchemy.com/v2/<your-api-key>',
-    maticApiUrl: 'https://eth-goerli.g.alchemy.com/v2/<your-api-key>',
+    ethereumApiUrl: 'https://eth-goerli.g.alchemy.com/v2/<your-api-key>',
     ethereumAccountPrivateKey: '<private-key-to-ethereum-account-of-sender>',
     amountWei: 1000000000,
     rootTokenAddress: '0x655F2166b0709cd575202630952D71E2bB0d61Af', // DummyERC20Token
@@ -153,7 +153,7 @@ import { transferERC721FromEthereumToMaticUsingPOSBridge } from "@ethereumnetwor
 
 await transferERC721FromEthereumToMaticUsingPOSBridge({
     maticApiUrl: 'https://polygon-mumbai.g.alchemy.com/v2/<your-api-key>',
-    maticApiUrl: 'https://eth-goerli.g.alchemy.com/v2/<your-api-key>',
+    ethereumApiUrl: 'https://eth-goerli.g.alchemy.com/v2/<your-api-key>',
     ethereumAccountPrivateKey: '<private-key-to-ethereum-account-of-sender>',
     tokenId: 5,
     rootTokenAddress: '0x084297B12F204Adb74c689be08302FA3f12dB8A7', // DummyERC721Token
@@ -221,7 +221,7 @@ import { transferERC1155FromEthereumToMaticUsingPOSBridge } from "@ethereumnetwo
 
 await transferERC1155FromEthereumToMaticUsingPOSBridge({
     maticApiUrl: 'https://polygon-mumbai.g.alchemy.com/v2/<your-api-key>',
-    maticApiUrl: 'https://eth-goerli.g.alchemy.com/v2/<your-api-key>',
+    ethereumApiUrl: 'https://eth-goerli.g.alchemy.com/v2/<your-api-key>',
     ethereumAccountPrivateKey: '<private-key-to-ethereum-account-of-sender>',
     tokenIds: [5, 2],
     amounts: [1000000000, 5000000000],
