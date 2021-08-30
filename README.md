@@ -41,6 +41,10 @@ or
 | `maticApiUrl`               |    ✅    |       -       | The matic url to the node api                                |
 | `ethereumAccountPrivateKey` |    ✅    |       -       | Ethereaum private key to the account from where you send ETH |
 | `ethereumApiUrl`            |    ✅    |       -       | The ethereum url to the node api                             |
+| `recipientAddress`          |    ✅    |       -       | The address of the recipient                                 |
+| `amountWei`                 |    ✅    |       -       | amount to send in wei                                        |
+| `maticNetwork`              |   :x:    |    testnet    | network of matic                                             |
+| `maticVersion`              |   :x:    |    mumbai     | version of matic                                             |
 | `gasPrice`                  |   :x:    | 100000000000  | Gas price of the transfer                                    |
 
 ```typescript
