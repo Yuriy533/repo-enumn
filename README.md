@@ -250,7 +250,6 @@ Note: it can take up to 10 minutes on the testnet and up to 30 minutes on the ma
 | `ethereumWebsocktesApiUrl` |    ✅    |                      -                       | Ethereum websockets url to the node api                                                                              |
 | `recipientAddress`         |    ✅    |                      -                       | Address of the recipient                                                                                             |
 | `tokenIds`                 |    ✅    |                      -                       | Token ids                                                                                                            |
-|                            |
 | `amounts`                  |    ✅    |                      -                       | Amounts in wei                                                                                                       |
 | `childTokenAddress`        |    ✅    |                      -                       | Token address on the matic chain                                                                                     |
 | `rootChainProxyAddress`    |   :x:    | `0x2890ba17efe978480615e330ecb65333b880928e` | Address of the chain proxy on the ethereum. Set to `0x86E4Dc95c7FBdBf52e33D563BbDB00823894C287` for mainnet transfer |
