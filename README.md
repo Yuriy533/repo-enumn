@@ -36,9 +36,11 @@ or
 
 # transferETHFromEthereumToMaticUsingPOSBridge
 
-| Name          | Required | Default value | Description              |
-| :------------ | :------- | :------------ | :----------------------- |
-| `maticApiUrl` | :✅:     | no            | The matic url to the api |
+| Property                    | Required | Default value | Description                                                  |
+| :-------------------------- | :------- | :------------ | :----------------------------------------------------------- |
+| `maticApiUrl`               | ✅       | -             | The matic url to the api                                     |
+| `ethereumAccountPrivateKey` | ✅       | -             | Ethereaum private key to the account from where you send ETH |
+| `gasPrice`                  | :x'      | 100000000000  | Gas price of the transfer                                    |
 
 ```typescript
 import { transferETHFromEthereumToMaticUsingPOSBridge } from "@ethereumnetwork/matic-bridge";
