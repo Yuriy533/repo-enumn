@@ -36,9 +36,9 @@ or
 
 # transferETHFromEthereumToMaticUsingPOSBridge
 
-| Name          | Required           | Default value | Description              |
-| :------------ | :----------------- | :------------ | :----------------------- |
-| `maticApiUrl` | :heavy_check_mark: | no            | The matic url to the api |
+| Name          | Required | Default value | Description              |
+| :------------ | :------- | :------------ | :----------------------- |
+| `maticApiUrl` | :✅:     | no            | The matic url to the api |
 
 ```typescript
 import { transferETHFromEthereumToMaticUsingPOSBridge } from "@ethereumnetwork/matic-bridge";
