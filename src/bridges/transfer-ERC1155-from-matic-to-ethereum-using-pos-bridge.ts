@@ -3,6 +3,11 @@ import HDWalletProvider from "@truffle/hdwallet-provider";
 import Web3 from "web3";
 import BN from "bn.js";
 import { eventTracking } from "../utils";
+import {
+  DEFAULT_GAS_PRICE,
+  DEFAULT_MATIC_VERSION,
+  DEFAULT_MATIC_NETWORK,
+} from "../consts";
 
 export interface TransferERC1155FromMaticToEthereumUsingPOSBridge {
   polygonMumbaiApiUrl: string;
@@ -31,9 +36,9 @@ export async function transferERC1155FromMaticToEthereumUsingPOSBridge({
   recipientAddress,
   // RootChainProxy Address on root chain (0x86E4Dc95c7FBdBf52e33D563BbDB00823894C287 for mainnet)
   rootChainProxyAddress = "0x2890ba17efe978480615e330ecb65333b880928e",
-  maticNetwork = "testnet",
-  maticVersion = "mumbai",
-  gasPrice = "100000000000",
+  maticNetwork = DEFAULT_MATIC_NETWORK,
+  maticVersion = DEFAULT_MATIC_VERSION,
+  gasPrice = DEFAULT_GAS_PRICE,
 }: TransferERC1155FromMaticToEthereumUsingPOSBridge) {
   // https://github.com/trufflesuite/truffle-hdwallet-provider
   // set the shareNonce to false so maticProvider and parentProvider won't share nonce which causes errors

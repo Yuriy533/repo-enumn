@@ -1,5 +1,10 @@
 import { MaticPOSClient } from "@maticnetwork/maticjs";
 import HDWalletProvider from "@truffle/hdwallet-provider";
+import {
+  DEFAULT_GAS_PRICE,
+  DEFAULT_MATIC_VERSION,
+  DEFAULT_MATIC_NETWORK,
+} from "../consts";
 
 export interface TransferERC20FromEthereumToMaticUsingPOSBridge {
   maticApiUrl: string;
@@ -20,9 +25,9 @@ export async function transferERC20FromEthereumToMaticUsingPOSBridge({
   rootTokenAddress,
   recipientAddress,
   amountTokenWei,
-  maticNetwork = "testnet",
-  maticVersion = "mumbai",
-  gasPrice = "100000000000",
+  maticNetwork = DEFAULT_MATIC_NETWORK,
+  maticVersion = DEFAULT_MATIC_VERSION,
+  gasPrice = DEFAULT_GAS_PRICE,
 }: TransferERC20FromEthereumToMaticUsingPOSBridge) {
   const parentProvider = new HDWalletProvider(
     ethereumAccountPrivateKey,
