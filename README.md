@@ -1,26 +1,26 @@
-## Matic POS bridges
+# Matic POS bridges
 
 This library helps you in easy way for transfering ethereum, ERC20, ERC721 and ERC1155 tokens from matic chain to ethereum chain and from matic chain to ethereum chain.
 It uses the [Matic SDK](https://docs.matic.network/docs/develop/ethereum-matic/pos/using-sdk/getting-started) under the hood.
 
-## Supported networks
+# Supported networks
 
 - Matic Testnet (Mumbai) - Ethereum Testnet (Goerli)
 - Matic Mainnet - Ethereum Mainnet
 
-## Supported protocols
+# Supported protocols
 
 - ETH
 - ERC20
 - ERC721
 - ERC1155
 
-## Prerequisites
+# Prerequisites
 
 - Node.js v.10 or greater is required
 - npm or yarn
 
-## How To Install
+# How To Install
 
 ```sh
  yarn add @ethereumnetwork/matic-bridge
@@ -32,9 +32,9 @@ or
  npm install @ethereumnetwork/matic-bridge
 ```
 
-## How To use
+# How To use
 
-# transferETHFromEthereumToMaticUsingPOSBridge
+### transferETHFromEthereumToMaticUsingPOSBridge
 
 | Property                    | Required | Default value | Description                                                  |
 | :-------------------------- | :------: | :-----------: | :----------------------------------------------------------- |
