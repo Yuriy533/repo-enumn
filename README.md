@@ -6,8 +6,10 @@ It uses the [Matic SDK](https://docs.matic.network/docs/develop/ethereum-matic/p
 # Table of Contents:
 
 - [Supported networks](#supported-networks)
-- [Getting Help](#getting-help)
-- [Contributing](#contributing)
+- [Supported protocols](#supported-protocols)
+- [Prerequisites](#prerequisites)
+- [How To Install](#How-To-Install)
+- [Supported methods](#Supported-methods)
 
 # Supported networks
 
@@ -41,13 +43,13 @@ or
 
 # Supported methods
 
-- transferETHFromEthereumToMaticUsingPOSBridge
-- transferERC20FromEthereumToMaticUsingPOSBridge
-- transferERC20FromMaticToEthereumUsingPOSBridge
-- transferERC721FromEthereumToMaticUsingPOSBridge
-- transferERC721FromMaticToEthereumUsingPOSBridge
-- transferERC1155FromEthereumToMaticUsingPOSBridge
-- transferERC1155FromMaticToEthereumUsingPOSBridge
+- [transferETHFromEthereumToMaticUsingPOSBridge](#transferETHFromEthereumToMaticUsingPOSBridge)
+- [transferERC20FromEthereumToMaticUsingPOSBridge](#transferERC20FromEthereumToMaticUsingPOSBridge)
+- [transferERC20FromMaticToEthereumUsingPOSBridge](#transferERC20FromMaticToEthereumUsingPOSBridge)
+- [transferERC721FromEthereumToMaticUsingPOSBridge](#transferERC721FromEthereumToMaticUsingPOSBridge)
+- [transferERC721FromMaticToEthereumUsingPOSBridge](#transferERC721FromMaticToEthereumUsingPOSBridge)
+- [transferERC1155FromEthereumToMaticUsingPOSBridge](#transferERC1155FromEthereumToMaticUsingPOSBridge)
+- [transferERC1155FromMaticToEthereumUsingPOSBridge](#transferERC1155FromMaticToEthereumUsingPOSBridge)
 
 ## transferETHFromEthereumToMaticUsingPOSBridge
 
