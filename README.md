@@ -34,6 +34,14 @@ or
 
 # Supported methods
 
+- transferETHFromEthereumToMaticUsingPOSBridge
+- transferERC20FromEthereumToMaticUsingPOSBridge
+- transferERC20FromMaticToEthereumUsingPOSBridge
+- transferERC721FromEthereumToMaticUsingPOSBridge
+- transferERC721FromMaticToEthereumUsingPOSBridge
+- transferERC1155FromEthereumToMaticUsingPOSBridge
+- transferERC1155FromMaticToEthereumUsingPOSBridge
+
 ## transferETHFromEthereumToMaticUsingPOSBridge
 
 | Property                    | Required | Default value  | Description                                                  |
