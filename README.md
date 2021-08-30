@@ -43,12 +43,22 @@ or
 | `ethereumApiUrl`            |    ✅    |       -       | The ethereum url to the node api                             |
 | `recipientAddress`          |    ✅    |       -       | The address of the recipient                                 |
 | `amountWei`                 |    ✅    |       -       | amount to send in wei                                        |
-| `maticNetwork`              |   :x:    |    testnet    | network of matic                                             |
-| `maticVersion`              |   :x:    |    mumbai     | version of matic                                             |
+| `maticNetwork`              |   :x:    |    testnet    | network of matic. Set to `mainnet` for mainnet transfer      |
+| `maticVersion`              |   :x:    |    mumbai     | version of matic. Set to `v1` for mainnet transfer           |
 | `gasPrice`                  |   :x:    | 100000000000  | Gas price of the transfer                                    |
 
 ```typescript
 import { transferETHFromEthereumToMaticUsingPOSBridge } from "@ethereumnetwork/matic-bridge";
+
+...
+
+await transferETHFromEthereumToMaticUsingPOSBridge({
+    maticApiUrl: 'https://polygon-mumbai.g.alchemy.com/v2/<your-api-key>',
+    maticApiUrl: 'https://eth-goerli.g.alchemy.com/v2/<your-api-key>',
+    ethereumAccountPrivateKey: '<private-key-of-sender-ethereum-account>',
+    amountWei: 1000000000,
+    recipientAddress: '0xC54177b51CE9FCA2827202054Fd8541792b03F74'
+})
 ```
 
 ## [Full docs](https://github.com/KedziaPawel/matic-bridge/blob/main/docs/README.md)
