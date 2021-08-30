@@ -36,16 +36,16 @@ or
 
 ## transferETHFromEthereumToMaticUsingPOSBridge
 
-| Property                    | Required | Default value | Description                                                  |
-| :-------------------------- | :------: | :-----------: | :----------------------------------------------------------- |
-| `maticApiUrl`               |    ✅    |       -       | Matic url to the node api                                    |
-| `ethereumAccountPrivateKey` |    ✅    |       -       | Ethereaum private key to the account from where you send ETH |
-| `ethereumApiUrl`            |    ✅    |       -       | Ethereum url to the node api                                 |
-| `recipientAddress`          |    ✅    |       -       | Address of the recipient                                     |
-| `amountWei`                 |    ✅    |       -       | Amount to send in wei                                        |
-| `maticNetwork`              |   :x:    |    testnet    | Network of matic. Set to `mainnet` for mainnet transfer      |
-| `maticVersion`              |   :x:    |    mumbai     | Version of matic. Set to `v1` for mainnet transfer           |
-| `gasPrice`                  |   :x:    | 100000000000  | Gas price of the transfer                                    |
+| Property                    | Required | Default value  | Description                                                  |
+| :-------------------------- | :------: | :------------: | :----------------------------------------------------------- |
+| `maticApiUrl`               |    ✅    |       -        | Matic url to the node api                                    |
+| `ethereumAccountPrivateKey` |    ✅    |       -        | Ethereaum private key to the account from where you send ETH |
+| `ethereumApiUrl`            |    ✅    |       -        | Ethereum url to the node api                                 |
+| `recipientAddress`          |    ✅    |       -        | Address of the recipient                                     |
+| `amountWei`                 |    ✅    |       -        | Amount to send in wei                                        |
+| `maticNetwork`              |   :x:    |   `testnet`    | Network of matic. Set to `mainnet` for mainnet transfer      |
+| `maticVersion`              |   :x:    |    `mumbai`    | Version of matic. Set to `v1` for mainnet transfer           |
+| `gasPrice`                  |   :x:    | `100000000000` | Gas price of the transfer                                    |
 
 ### example usage
 
@@ -65,17 +65,17 @@ await transferETHFromEthereumToMaticUsingPOSBridge({
 
 ## transferERC20FromEthereumToMaticUsingPOSBridge
 
-| Property                    | Required | Default value | Description                                                  |
-| :-------------------------- | :------: | :-----------: | :----------------------------------------------------------- |
-| `maticApiUrl`               |    ✅    |       -       | Matic url to the node api                                    |
-| `ethereumAccountPrivateKey` |    ✅    |       -       | Ethereaum private key to the account from where you send ETH |
-| `ethereumApiUrl`            |    ✅    |       -       | Ethereum url to the node api                                 |
-| `recipientAddress`          |    ✅    |       -       | Address of the recipient                                     |
-| `amountWei`                 |    ✅    |       -       | Amount to send in wei                                        |
-| `rootTokenAddress`          |    ✅    |       -       | Token address on ethereum chain                              |
-| `maticNetwork`              |   :x:    |    testnet    | Network of matic. Set to `mainnet` for mainnet transfer      |
-| `maticVersion`              |   :x:    |    mumbai     | Version of matic. Set to `v1` for mainnet transfer           |
-| `gasPrice`                  |   :x:    | 100000000000  | Gas price of the transfer                                    |
+| Property                    | Required | Default value  | Description                                                  |
+| :-------------------------- | :------: | :------------: | :----------------------------------------------------------- |
+| `maticApiUrl`               |    ✅    |       -        | Matic url to the node api                                    |
+| `ethereumAccountPrivateKey` |    ✅    |       -        | Ethereaum private key to the account from where you send ETH |
+| `ethereumApiUrl`            |    ✅    |       -        | Ethereum url to the node api                                 |
+| `recipientAddress`          |    ✅    |       -        | Address of the recipient                                     |
+| `amountWei`                 |    ✅    |       -        | Amount to send in wei                                        |
+| `rootTokenAddress`          |    ✅    |       -        | Token address on ethereum chain                              |
+| `maticNetwork`              |   :x:    |   `testnet`    | Network of matic. Set to `mainnet` for mainnet transfer      |
+| `maticVersion`              |   :x:    |    `mumbai`    | Version of matic. Set to `v1` for mainnet transfer           |
+| `gasPrice`                  |   :x:    | `100000000000` | Gas price of the transfer                                    |
 
 ### example usage
 
@@ -107,8 +107,8 @@ await transferERC20FromEthereumToMaticUsingPOSBridge({
 | `childTokenAddress`        |    ✅    |                      -                       | Token address on the matic chain                                                                                     |
 | `rootChainProxyAddress`    |   :x:    | `0x2890ba17efe978480615e330ecb65333b880928e` | Address of the chain proxy on the ethereym. Set to `0x86E4Dc95c7FBdBf52e33D563BbDB00823894C287` for mainnet transfer |
 | `maticNetwork`             |   :x:    |                   testnet                    | Network of matic. Set to `mainnet` for mainnet transfer                                                              |
-| `maticVersion`             |   :x:    |                    mumbai                    | Version of matic. Set to `v1` for mainnet transfer                                                                   |
-| `gasPrice`                 |   :x:    |                 100000000000                 | Gas price of the transfer                                                                                            |
+| `maticVersion`             |   :x:    |                   `mumbai`                   | Version of matic. Set to `v1` for `mainnet` transfer                                                                 |
+| `gasPrice`                 |   :x:    |                `100000000000`                | Gas price of the transfer                                                                                            |
 
 ### example usage
 
