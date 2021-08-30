@@ -192,7 +192,7 @@ await transferERC721FromMaticToEthereumUsingPOSBridge({
     ethereumWebsocktesApiUrl: 'wss://eth-goerli.g.alchemy.com/v2/<your-api-key>',
     accountPrivateKey: '<private-key-to-matic-account-of-sender>',
     tokendId: 5,
-    childTokenAddress: '0x757b1BD7C12B81b52650463e7753d7f5D0565C0e', // DummyERC20Token
+    childTokenAddress: '0x757b1BD7C12B81b52650463e7753d7f5D0565C0e', // DummyERC721Token
     recipientAddress: '0x89205A3A3b2A69De6Dbf7f01ED13B2108B2c43e7'
 })
 ```
