@@ -238,6 +238,45 @@ await transferERC1155FromEthereumToMaticUsingPOSBridge({
 })
 ```
 
+## transferERC1155FromMaticToEthereumUsingPOSBridge
+
+Note: it can take up to 10 minutes on the testnet and up to 30 minutes on the mainnet. Please don't shut the program during this time as it waits and listens for the proof of burn to occur on the ethereum.
+
+| Property                   | Required |                Default value                 | Description                                                                                                          |
+| :------------------------- | :------: | :------------------------------------------: | :------------------------------------------------------------------------------------------------------------------- |
+| `maticApiUrl`              |    ✅    |                      -                       | Matic url to the node api                                                                                            |
+| `accountPrivateKey`        |    ✅    |                      -                       | Account private key to the account from where you send ERC20                                                         |
+| `ethereumHttpsApiUrl`      |    ✅    |                      -                       | Ethereum https url to the node api                                                                                   |
+| `ethereumWebsocktesApiUrl` |    ✅    |                      -                       | Ethereum websockets url to the node api                                                                              |
+| `recipientAddress`         |    ✅    |                      -                       | Address of the recipient                                                                                             |
+| `tokenIds`                 |    ✅    |                      -                       | Token ids                                                                                                            |
+|                            |
+| `amounts`                  |    ✅    |                      -                       | Amounts in wei                                                                                                       |
+| `childTokenAddress`        |    ✅    |                      -                       | Token address on the matic chain                                                                                     |
+| `rootChainProxyAddress`    |   :x:    | `0x2890ba17efe978480615e330ecb65333b880928e` | Address of the chain proxy on the ethereum. Set to `0x86E4Dc95c7FBdBf52e33D563BbDB00823894C287` for mainnet transfer |
+| `maticNetwork`             |   :x:    |                  `testnet`                   | Network of matic. Set to `mainnet` for mainnet transfer                                                              |
+| `maticVersion`             |   :x:    |                   `mumbai`                   | Version of matic. Set to `v1` for `mainnet` transfer                                                                 |
+| `gasPrice`                 |   :x:    |                `100000000000`                | Gas price of the transfer                                                                                            |
+
+### example usage
+
+```typescript
+import { transferERC1155FromMaticToEthereumUsingPOSBridge } from "@ethereumnetwork/matic-bridge";
+
+...
+
+await transferERC1155FromMaticToEthereumUsingPOSBridge({
+    maticApiUrl: 'https://polygon-mumbai.g.alchemy.com/v2/<your-api-key>',
+    ethereumHttpsApiUrl: 'https://eth-goerli.g.alchemy.com/v2/<your-api-key>',
+    ethereumWebsocktesApiUrl: 'wss://eth-goerli.g.alchemy.com/v2/<your-api-key>',
+    accountPrivateKey: '<private-key-to-matic-account-of-sender>',
+    tokenIds: [5, 2],
+    amounts: [1000000000, 5000000000],
+    childTokenAddress: '0xA07e45A987F19E25176c877d98388878622623FA', // DummyERC1155Token
+    recipientAddress: '0x89205A3A3b2A69De6Dbf7f01ED13B2108B2c43e7'
+})
+```
+
 ## [Full docs](https://github.com/KedziaPawel/matic-bridge/blob/main/docs/README.md)
 
 ## License
