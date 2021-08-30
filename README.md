@@ -96,7 +96,7 @@ await transferERC20FromEthereumToMaticUsingPOSBridge({
 
 ## transferERC20FromMaticToEthereumUsingPOSBridge
 
-Note: it can take up to 10 minutes on the testnet and up to 30 minutes on the mainnet. Please don't shut the program during this time as it waits for the proof of burn on the ethereum.
+Note: it can take up to 10 minutes on the testnet and up to 30 minutes on the mainnet. Please don't shut the program during this time as it waits and listens for the proof of burn to occur on the ethereum.
 
 | Property                   | Required |                Default value                 | Description                                                                                                          |
 | :------------------------- | :------: | :------------------------------------------: | :------------------------------------------------------------------------------------------------------------------- |
@@ -126,6 +126,37 @@ await transferERC20FromMaticToEthereumUsingPOSBridge({
     accountPrivateKey: '<private-key-to-matic-account-of-sender>',
     amountWei: 1000000000,
     childTokenAddress: '0xfe4F5145f6e09952a5ba9e956ED0C25e3Fa4c7F1', // DummyERC20Token
+    recipientAddress: '0x89205A3A3b2A69De6Dbf7f01ED13B2108B2c43e7'
+})
+```
+
+## transferERC721FromEthereumToMaticUsingPOSBridge
+
+| Property                    | Required | Default value  | Description                                                  |
+| :-------------------------- | :------: | :------------: | :----------------------------------------------------------- |
+| `maticApiUrl`               |    ✅    |       -        | Matic url to the node api                                    |
+| `ethereumAccountPrivateKey` |    ✅    |       -        | Ethereaum private key to the account from where you send ETH |
+| `ethereumApiUrl`            |    ✅    |       -        | Ethereum url to the node api                                 |
+| `recipientAddress`          |    ✅    |       -        | Address of the recipient                                     |
+| `tokenId`                   |    ✅    |       -        | Token id                                                     |
+| `rootTokenAddress`          |    ✅    |       -        | Token address on ethereum chain                              |
+| `maticNetwork`              |   :x:    |   `testnet`    | Network of matic. Set to `mainnet` for mainnet transfer      |
+| `maticVersion`              |   :x:    |    `mumbai`    | Version of matic. Set to `v1` for mainnet transfer           |
+| `gasPrice`                  |   :x:    | `100000000000` | Gas price of the transfer                                    |
+
+### example usage
+
+```typescript
+import { transferERC721FromEthereumToMaticUsingPOSBridge } from "@ethereumnetwork/matic-bridge";
+
+...
+
+await transferERC721FromEthereumToMaticUsingPOSBridge({
+    maticApiUrl: 'https://polygon-mumbai.g.alchemy.com/v2/<your-api-key>',
+    maticApiUrl: 'https://eth-goerli.g.alchemy.com/v2/<your-api-key>',
+    ethereumAccountPrivateKey: '<private-key-to-ethereum-account-of-sender>',
+    tokenId: 5,
+    rootTokenAddress: '0x084297B12F204Adb74c689be08302FA3f12dB8A7', // DummyERC721Token
     recipientAddress: '0x89205A3A3b2A69De6Dbf7f01ED13B2108B2c43e7'
 })
 ```
