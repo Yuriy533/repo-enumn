@@ -19,6 +19,7 @@ It uses the [Matic SDK](https://docs.matic.network/docs/develop/ethereum-matic/p
 
 - Node.js v.10 or greater is required
 - npm or yarn
+- submited mapping request like (here)[https://docs.matic.network/docs/develop/ethereum-matic/submit-mapping-request/]
 
 # How To Install
 
