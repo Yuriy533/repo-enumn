@@ -8,8 +8,8 @@ It uses the [Matic SDK](https://docs.matic.network/docs/develop/ethereum-matic/p
 - [Supported networks](#supported-networks)
 - [Supported protocols](#supported-protocols)
 - [Prerequisites](#prerequisites)
-- [How To Install](#How-To-Install)
-- [Supported methods](#Supported-methods)
+- [How To Install](#how-to-Install)
+- [Supported methods](#supported-methods)
 
 # Supported networks
 
