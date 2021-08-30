@@ -49,7 +49,7 @@ or
 - [transferERC721FromEthereumToMaticUsingPOSBridge](#transferERC721FromEthereumToMaticUsingPOSBridge)
 - [transferERC721FromMaticToEthereumUsingPOSBridge](#transferERC721FromMaticToEthereumUsingPOSBridge)
 - [transferERC1155FromEthereumToMaticUsingPOSBridge](#transferERC1155FromEthereumToMaticUsingPOSBridge)
-- [transferERC1155FromMaticToEthereumUsingPOSBridge](#transferERC1155FromMaticToEthereumUsingPOSBridge)
+- [transferERC1155FromMaticToEthereumUsingPOSBridge](#transfererc1155frommatictoethereumusingposbridge)
 
 ## transferETHFromEthereumToMaticUsingPOSBridge
 
