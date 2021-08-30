@@ -32,14 +32,15 @@ or
  npm install @ethereumnetwork/matic-bridge
 ```
 
-# How To use
+# Supported methods
 
 ### transferETHFromEthereumToMaticUsingPOSBridge
 
 | Property                    | Required | Default value | Description                                                  |
 | :-------------------------- | :------: | :-----------: | :----------------------------------------------------------- |
-| `maticApiUrl`               |    ✅    |       -       | The matic url to the api                                     |
+| `maticApiUrl`               |    ✅    |       -       | The matic url to the node api                                |
 | `ethereumAccountPrivateKey` |    ✅    |       -       | Ethereaum private key to the account from where you send ETH |
+| `ethereumApiUrl`            |    ✅    |       -       | The ethereum url to the node api                             |
 | `gasPrice`                  |   :x:    | 100000000000  | Gas price of the transfer                                    |
 
 ```typescript
