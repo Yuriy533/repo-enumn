@@ -72,6 +72,7 @@ await transferETHFromEthereumToMaticUsingPOSBridge({
 | `ethereumApiUrl`            |    ✅    |       -       | Ethereum url to the node api                                 |
 | `recipientAddress`          |    ✅    |       -       | Address of the recipient                                     |
 | `amountWei`                 |    ✅    |       -       | Amount to send in wei                                        |
+| `rootTokenAddress`          |    ✅    |       -       | Token address on ethereum chain                              |
 | `maticNetwork`              |   :x:    |    testnet    | Network of matic. Set to `mainnet` for mainnet transfer      |
 | `maticVersion`              |   :x:    |    mumbai     | Cersion of matic. Set to `v1` for mainnet transfer           |
 | `gasPrice`                  |   :x:    | 100000000000  | Gas price of the transfer                                    |
@@ -88,6 +89,7 @@ await transferERC20FromEthereumToMaticUsingPOSBridge({
     maticApiUrl: 'https://eth-goerli.g.alchemy.com/v2/<your-api-key>',
     ethereumAccountPrivateKey: '<private-key-to-ethereum-account-of-sender>',
     amountWei: 1000000000,
+    rootTokenAddress: '0x655F2166b0709cd575202630952D71E2bB0d61Af', // DummyERC20Token
     recipientAddress: '0x89205A3A3b2A69De6Dbf7f01ED13B2108B2c43e7'
 })
 ```
