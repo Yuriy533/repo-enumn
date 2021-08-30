@@ -3,6 +3,12 @@
 This library helps you in easy way for transfering ethereum, ERC20, ERC721 and ERC1155 tokens from matic chain to ethereum chain and from matic chain to ethereum chain.
 It uses the [Matic SDK](https://docs.matic.network/docs/develop/ethereum-matic/pos/using-sdk/getting-started) under the hood.
 
+# Table of Contents:
+
+- [Supported networks](#supported-networks)
+- [Getting Help](#getting-help)
+- [Contributing](#contributing)
+
 # Supported networks
 
 - Matic Testnet (Mumbai) - Ethereum Testnet (Goerli)
