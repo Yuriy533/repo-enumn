@@ -43,12 +43,12 @@ or
 
 # Supported methods
 
-- [transferETHFromEthereumToMaticUsingPOSBridge](#transferETHFromEthereumToMaticUsingPOSBridge)
-- [transferERC20FromEthereumToMaticUsingPOSBridge](#transferERC20FromEthereumToMaticUsingPOSBridge)
-- [transferERC20FromMaticToEthereumUsingPOSBridge](#transferERC20FromMaticToEthereumUsingPOSBridge)
-- [transferERC721FromEthereumToMaticUsingPOSBridge](#transferERC721FromEthereumToMaticUsingPOSBridge)
-- [transferERC721FromMaticToEthereumUsingPOSBridge](#transferERC721FromMaticToEthereumUsingPOSBridge)
-- [transferERC1155FromEthereumToMaticUsingPOSBridge](#transferERC1155FromEthereumToMaticUsingPOSBridge)
+- [transferETHFromEthereumToMaticUsingPOSBridge](#transferethfromethereumtomaticusingposbridge)
+- [transferERC20FromEthereumToMaticUsingPOSBridge](#transfererc20fromethereumtomaticusingposbridge)
+- [transferERC20FromMaticToEthereumUsingPOSBridge](#transfererc20frommatictoethereumusingposbridge)
+- [transferERC721FromEthereumToMaticUsingPOSBridge](#transfererc721fromethereumtomaticusingposbridge)
+- [transferERC721FromMaticToEthereumUsingPOSBridge](#transfererc721frommatictoethereumusingposbridge)
+- [transferERC1155FromEthereumToMaticUsingPOSBridge](#transfererc1155fromethereumtomaticusingposbridge)
 - [transferERC1155FromMaticToEthereumUsingPOSBridge](#transfererc1155frommatictoethereumusingposbridge)
 
 ## transferETHFromEthereumToMaticUsingPOSBridge
