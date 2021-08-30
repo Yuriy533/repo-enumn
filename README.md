@@ -96,6 +96,8 @@ await transferERC20FromEthereumToMaticUsingPOSBridge({
 
 ## transferERC20FromMaticToEthereumUsingPOSBridge
 
+Note: it can take up to 10 minutes on the testnet and up to 30 minutes on the mainnet. Please don't shut the program during this time as it waits for the proof of burn on the ethereum.
+
 | Property                   | Required |                Default value                 | Description                                                                                                          |
 | :------------------------- | :------: | :------------------------------------------: | :------------------------------------------------------------------------------------------------------------------- |
 | `maticApiUrl`              |    ✅    |                      -                       | Matic url to the node api                                                                                            |
@@ -105,7 +107,7 @@ await transferERC20FromEthereumToMaticUsingPOSBridge({
 | `recipientAddress`         |    ✅    |                      -                       | Address of the recipient                                                                                             |
 | `amountWei`                |    ✅    |                      -                       | Amount to send in wei                                                                                                |
 | `childTokenAddress`        |    ✅    |                      -                       | Token address on the matic chain                                                                                     |
-| `rootChainProxyAddress`    |   :x:    | `0x2890ba17efe978480615e330ecb65333b880928e` | Address of the chain proxy on the ethereym. Set to `0x86E4Dc95c7FBdBf52e33D563BbDB00823894C287` for mainnet transfer |
+| `rootChainProxyAddress`    |   :x:    | `0x2890ba17efe978480615e330ecb65333b880928e` | Address of the chain proxy on the ethereum. Set to `0x86E4Dc95c7FBdBf52e33D563BbDB00823894C287` for mainnet transfer |
 | `maticNetwork`             |   :x:    |                  `testnet`                   | Network of matic. Set to `mainnet` for mainnet transfer                                                              |
 | `maticVersion`             |   :x:    |                   `mumbai`                   | Version of matic. Set to `v1` for `mainnet` transfer                                                                 |
 | `gasPrice`                 |   :x:    |                `100000000000`                | Gas price of the transfer                                                                                            |
